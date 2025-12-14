@@ -85,8 +85,8 @@ Este roteiro demonstra o **"Efeito Viagem no Tempo"**, onde uma resposta chega a
 Execute em um terminal separado:
 
 ```bash
-curl -X POST http://localhost:8080/post \\
-  -H "Content-Type: application/json" \\
+curl -X POST http://localhost:8080/post \
+  -H "Content-Type: application/json" \
   -d '{"evtId": "post_alice", "author": "Alice", "text": "Alguém gosta de Pizza?", "processId": 0}'
 ```
 
@@ -94,8 +94,8 @@ curl -X POST http://localhost:8080/post \\
 Execute **imediatamente** após o passo 1 (dentro da janela de 10 segundos):
 
 ```bash
-curl -X POST http://localhost:8081/post \\
-  -H "Content-Type: application/json" \\
+curl -X POST http://localhost:8081/post \
+  -H "Content-Type: application/json" \
   -d '{"evtId": "reply_bob", "parentEvtId": "post_alice", "author": "Bob", "text": "Eu amo pizza!", "processId": 1}'
 ```
 

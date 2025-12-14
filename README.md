@@ -35,8 +35,8 @@ O sistema é composto por múltiplas réplicas (processos) que se comunicam via 
 
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/seu-usuario/seu-repo.git](https://github.com/seu-usuario/seu-repo.git)
-cd seu-repo
+git clone https://github.com/vilnercesar/twitter-causal.git
+cd twitter-causal
 
 # 2. Crie e ative um ambiente virtual (Opcional, mas recomendado)
 python -m venv .venv
